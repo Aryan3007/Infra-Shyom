@@ -46,13 +46,6 @@ const teamMembers: TeamMember[] = [
     image: "/manish.jpg",
     bio: "Jordan ensures that our projects run smoothly from inception to delivery. With a background in both design and business, Jordan bridges the gap between creative vision and practical execution, keeping our projects on time and within budget.",
   },
-    {
-      id: 2,
-      name: "Dhruv Gupta",
-      role: "Lead Developer",
-      image: "/dhruv.png",
-      bio: "Jamie is a full-stack developer with expertise in the latest web and mobile technologies. With a background in computer science and a keen eye for detail, Jamie ensures that our technical implementations are robust, scalable, and cutting-edge.",
-  },
   {
     id: 6,
     name: "Deepesh Arya",
