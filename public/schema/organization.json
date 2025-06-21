@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "iShyom",
+  "url": "https://www.ishyom.com/",
+  "logo": "https://www.ishyom.com//logo.png",
+  "description": "Creative services for your business",
+  "foundingDate": "2020",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-XXX-XXX-XXXX",
+      "contactType": "Customer Service",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-XXX-XXX-XXXX",
+      "contactType": "Sales",
+      "availableLanguage": "English"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Business Street",
+    "addressLocality": "Business City",
+    "addressRegion": "State",
+    "postalCode": "12345",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.facebook.com/yourcompany",
+    "https://www.twitter.com/yourcompany",
+    "https://www.linkedin.com/company/yourcompany"
+  ]
+}
