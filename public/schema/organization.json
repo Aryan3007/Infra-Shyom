@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Your Organization Name",
+  "url": "https://yourwebsite.com",
+  "logo": "https://yourwebsite.com/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-XXX-XXX-XXXX",
+    "contactType": "Customer Service"
+  }
+}
