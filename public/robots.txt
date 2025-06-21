@@ -1,0 +1,66 @@
+# Robots.txt - SEO Configuration
+# Generated based on AboutSEO.md best practices
+# Website: https://www.ishyom.com/
+# Generated: 2025-06-21T09:02:02.448Z
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of admin, private, and temporary areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /test/
+Disallow: /dev/
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /search?
+Disallow: /*?
+Disallow: /*.pdf$
+Disallow: /cgi-bin/
+
+# Allow important files for SEO
+Allow: /wp-content/uploads/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.ishyom.com//sitemap.xml
+Sitemap: https://www.ishyom.com//sitemap-images.xml
+Sitemap: https://www.ishyom.com//sitemap-news.xml
+
+# Additional information
+# Host: www.ishyom.com/
+# Crawl-delay: 1 second between requests
+# Contact: webmaster@www.ishyom.com/
